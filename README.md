@@ -22,3 +22,22 @@ The framework was developed during my PhD research at the **University of Strath
 - LiTS Challenge Dataset
 
 ---
+## Network Architecture
+
+<p align="center">
+
+Architecture Figure
+
+</p>
+
+---
+
+## Workflow
+
+<p align="center">
+
+Workflow Figure
+
+</p>
+## Experimental Results
+
