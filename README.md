@@ -22,22 +22,33 @@ The framework was developed during my PhD research at the **University of Strath
 - LiTS Challenge Dataset
 
 ---
-## Network Architecture
+
+
+## 🔄 Overall Workflow
 
 <p align="center">
-
-Architecture Figure
-
+  <img src="figures/workflow.png" width="900"/>
 </p>
+
+The complete workflow consists of CT image preprocessing, multi-scale feature extraction, liver tumour segmentation and quantitative evaluation.
 
 ---
 
-## Workflow
+## Network Architecture
 
 <p align="center">
-
-Workflow Figure
-
+  <img src="figures/architecture.png" width="900"/>
 </p>
-## Experimental Results
 
+The proposed MSF-UNet extends the conventional U-Net by incorporating multi-scale feature extraction and residual feature fusion to improve feature representation and segmentation accuracy.
+
+---
+
+
+## 📊 Segmentation Results
+
+<p align="center">
+  <img src="figures/result.png" width="900"/>
+</p>
+
+Representative qualitative segmentation results on the LiTS Challenge dataset.
