@@ -27,7 +27,7 @@ The framework was developed during my PhD research at the **University of Strath
 ## 🔄 Overall Workflow
 
 <p align="center">
-  <img src="figures/workflow.png" width="900"/>
+  <img src="figures/workflow.png" width="350"/>
 </p>
 
 The complete workflow consists of CT image preprocessing, multi-scale feature extraction, liver tumour segmentation and quantitative evaluation.
