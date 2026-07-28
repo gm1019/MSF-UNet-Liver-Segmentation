@@ -19,7 +19,7 @@ from keras.optimizers import *
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler
 #from keras.utils import normalize, to_categorical 
 
-from data2 import dice_coef, bce_dice_loss, dice_loss
+from dataset.data_loader import dice_coef, bce_dice_loss, dice_loss
 
 def conv(inputs,filters):
     conv1 = Conv2D(filters, 3, use_bias=False, padding = 'same', kernel_initializer='he_normal')(inputs)
