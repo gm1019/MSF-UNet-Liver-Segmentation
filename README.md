@@ -37,7 +37,7 @@ The complete workflow consists of CT image preprocessing, multi-scale feature ex
 ## Network Architecture
 
 <p align="center">
-  <img src="figures/architecture.png" width="900"/>
+  <img src="figures/architecture.png" width="500"/>
 </p>
 
 The proposed MSF-UNet extends the conventional U-Net by incorporating multi-scale feature extraction and residual feature fusion to improve feature representation and segmentation accuracy.
@@ -48,7 +48,7 @@ The proposed MSF-UNet extends the conventional U-Net by incorporating multi-scal
 ## 📊 Segmentation Results
 
 <p align="center">
-  <img src="figures/result.png" width="900"/>
+  <img src="figures/results.png" width="900"/>
 </p>
 
 Representative qualitative segmentation results on the LiTS Challenge dataset.
