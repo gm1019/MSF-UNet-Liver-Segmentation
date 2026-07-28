@@ -315,18 +315,18 @@ acc = []
 dice = np.zeros(num)
 
 
-path = "C:/Users/Ming Gong/Desktop/unet-master/data/membrane/predict/thesis/liver1"
+path = "C:/Users/Ming Gong/Desktop/..."
 #path = "D:/assemble/p9/"
 #path = "C:/Users/Gong Ming/Desktop/unet-master/data/refine/sss/mask/"
 
-files= os.listdir(path) #得到文件夹下的所有文件名称
+files = os.listdir(path) #得到文件夹下的所有文件名称
 #files.sort(key=lambda x:int(x[:-4]))
 
 #files = sorted(glob.glob(path + "*.png"), key=lambda x:int(x[:-4]))
 images = np.zeros([num,512,512,1])
 
 
-path1 = "C:/Users/Ming Gong/Desktop/unet-master/data/membrane/test/label_l"
+path1 = "C:/Users/Ming Gong/Desktop/..."
 #files1 = sorted(glob.glob(path1 + "*.png"), key=lambda x:int(x[:-4]))
 files1= os.listdir(path1) #得到文件夹下的所有文件名称
 #files1.sort(key=lambda x:int(x[:-4]))
