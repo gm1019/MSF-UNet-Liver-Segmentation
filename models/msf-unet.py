@@ -6,7 +6,7 @@ Created on Thu Apr  4 20:14:27 2024
 """
 
 
-
+import tensorflow as tf
 import numpy as np 
 import os
 import skimage.io as io
